@@ -1,20 +1,12 @@
-import React, { PropsWithChildren } from 'react';
-import {
-  HashRouter,
-  MemoryRouter,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom';
-
-import { Layout } from './components/Layout';
-import { Landing } from './pages/Landing';
-import { QuickCalc } from './pages/QuickCalc';
-import { Results } from './pages/Results';
-import { DeepDive } from './pages/DeepDive';
-import { CouncilReport } from './pages/CouncilReport';
-import { Assumptions } from './pages/Assumptions';
-
+import React from 'react';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Layout } from './Layout';
+import { Landing } from './Landing';
+import { QuickCalc } from './QuickCalc';
+import { Results } from './Results';
+import { DeepDive } from './DeepDive';
+import { CouncilReport } from './CouncilReport';
+import { Assumptions } from './Assumptions';
 // AI Studio runs the app in a sandboxed blob: URL (often on *.usercontent.goog).
 // In that environment, HashRouter navigation can trigger Location.assign,
 // which gets blocked. MemoryRouter avoids touching window.location.
