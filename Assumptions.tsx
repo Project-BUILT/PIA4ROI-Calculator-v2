@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './components/ui/Button';
+import { Button } from './Button';
 import { EVIDENCE, MULTIPLIERS, DEFAULTS } from './constants';
 import { ExternalLink, Calculator, ShieldCheck, TrendingDown, AlertTriangle, Scale, ArrowLeft } from 'lucide-react';
 
