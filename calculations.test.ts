@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { calculateROI } from '../utils/calculations';
-import { CalculatorInputs, AgencyType, LocationProfile, RiskMode } from '../types';
+import { calculateROI } from './utils/calculations';
+import { CalculatorInputs, AgencyType, LocationProfile, RiskMode } from './types';
 import { MULTIPLIERS, DEFAULTS } from './constants';
 
 const mockInputs: CalculatorInputs = {
