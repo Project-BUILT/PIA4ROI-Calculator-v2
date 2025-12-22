@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './components/ui/Button';
+import { Button } from './Button';
 import { AgencyType, LocationProfile, CalculatorInputs } from './types';
 import { PRESETS, DEFAULTS } from './constants';
 import { getDefaultLiability } from './utils/calculations';
