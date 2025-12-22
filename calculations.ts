@@ -1,4 +1,4 @@
-import { CalculatorInputs, CalculationResult, RiskMode, LocationProfile, AgencyType, SensitivityResult } from "../types";
+import { CalculatorInputs, CalculationResult, RiskMode, LocationProfile, AgencyType, SensitivityResult } from "./types";
 import { MULTIPLIERS, DEFAULTS } from "./constants";
 
 export const formatCurrency = (amount: number): string => {
