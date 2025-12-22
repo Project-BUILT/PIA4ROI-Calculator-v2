@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './Button';
 import { TrendingDown, ShieldAlert, ArrowRight, CheckCircle2, FileText } from 'lucide-react';
-import { MOCK_INPUTS } from '../constants';
+import { MOCK_INPUTS } from './constants';
 
 export const Landing: React.FC = () => {
   const navigate = useNavigate();
