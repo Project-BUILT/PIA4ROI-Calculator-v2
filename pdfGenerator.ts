@@ -1,5 +1,5 @@
 import jsPDF from 'jspdf';
-import { CalculatorInputs, CalculationResult, RiskMode } from '../types';
+import { CalculatorInputs, CalculationResult, RiskMode } from './types';
 import { formatCurrency } from './calculations';
 
 export const generateCouncilReport = (
