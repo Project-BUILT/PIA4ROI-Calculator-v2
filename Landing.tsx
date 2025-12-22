@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../components/ui/Button';
+import { Button } from './Button';
 import { TrendingDown, ShieldAlert, ArrowRight, CheckCircle2, FileText } from 'lucide-react';
 import { MOCK_INPUTS } from '../constants';
 
