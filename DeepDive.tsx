@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from './Button';
 import { CalculatorInputs, AgencyProfile, LeadData } from './types';
 import { getEnv } from './env';
-import { calculatePilotStats, formatCurrency } from './utils/calculations';
+import { calculatePilotStats, formatCurrency } from './calculations';
 import { DEFAULTS } from './constants';
 import { FileText, ArrowRight, Settings2, Info } from 'lucide-react';
 
