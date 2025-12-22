@@ -4,7 +4,7 @@ import { Button } from '../components/ui/Button';
 import { CalculatorInputs, AgencyProfile, LeadData } from '../types';
 import { getEnv } from '../utils/env';
 import { calculatePilotStats, formatCurrency } from '../utils/calculations';
-import { DEFAULTS } from '../constants';
+import { DEFAULTS } from './constants';
 import { FileText, ArrowRight, Settings2, Info } from 'lucide-react';
 
 export const DeepDive: React.FC = () => {
