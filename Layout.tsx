@@ -6,7 +6,7 @@ export const Layout = ({ children }: PropsWithChildren) => {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen flex flex-col font-sans text-zinc-100 bg-transparent">
+    <div className="min-h-screen flex flex-col font-sans text-zinc-100 bg-transparent overflow-x-hidden">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
