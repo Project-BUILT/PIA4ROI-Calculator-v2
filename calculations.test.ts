@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { calculateROI } from './utils/calculations';
+import { calculateROI } from './calculations';
 import { CalculatorInputs, AgencyType, LocationProfile, RiskMode } from './types';
 import { MULTIPLIERS, DEFAULTS } from './constants';
 
