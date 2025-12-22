@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/Button';
-import { EVIDENCE, MULTIPLIERS, DEFAULTS } from '../constants';
+import { EVIDENCE, MULTIPLIERS, DEFAULTS } from './constants';
 import { ExternalLink, Calculator, ShieldCheck, TrendingDown, AlertTriangle, Scale, ArrowLeft } from 'lucide-react';
 
 export const Assumptions: React.FC = () => {
