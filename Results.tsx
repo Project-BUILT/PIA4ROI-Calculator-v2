@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../components/ui/Button';
+import { Button } from './Button';
 import { CalculatorInputs, RiskMode, LeadData } from '../types';
 import { calculateROI, formatCurrency } from '../utils/calculations';
 import { getEnv } from '../utils/env';
