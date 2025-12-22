@@ -5,7 +5,7 @@ import { calculateROI, formatCurrency } from '../utils/calculations';
 import { generateCouncilReport } from '../utils/pdfGenerator';
 import { getEnv } from '../utils/env';
 import { Download, Mail, MapPin, Building2, User, FileCheck, AlertTriangle, ShieldCheck } from 'lucide-react';
-import { DEFAULTS, MULTIPLIERS } from '../constants';
+import { DEFAULTS, MULTIPLIERS } from './constants';
 
 interface LocaleBrief {
   laborMarketNotes: string;
