@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button } from './Button';
 import { CalculatorInputs, RiskMode } from './types';
 import { calculateROI, formatCurrency } from './calculations';
-import { generateCouncilReport } from './utils/pdfGenerator';
+import { generateCouncilReport } from './pdfGenerator';
 import { getEnv } from './utils/env';
 import { Download, Mail, MapPin, Building2, User, FileCheck, AlertTriangle, ShieldCheck } from 'lucide-react';
 import { DEFAULTS, MULTIPLIERS } from './constants';
