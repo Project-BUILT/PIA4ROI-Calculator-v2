@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './Button';
 import { CalculatorInputs, RiskMode, LeadData } from './types';
-import { calculateROI, formatCurrency } from '..utils/calculations';
-import { getEnv } from './utils/env';
+import { calculateROI, formatCurrency } from './calculations';
+import { getEnv } from './env';
 import { Lock, Unlock, ArrowRight, FileText } from 'lucide-react';
 
 export const Results: React.FC = () => {
