@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from './components/ui/Button';
+import { Button } from './Button';
 import { CalculatorInputs, RiskMode } from './types';
 import { calculateROI, formatCurrency } from './utils/calculations';
 import { generateCouncilReport } from './utils/pdfGenerator';
