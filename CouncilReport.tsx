@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from '../components/ui/Button';
-import { CalculatorInputs, RiskMode } from '../types';
-import { calculateROI, formatCurrency } from '../utils/calculations';
-import { generateCouncilReport } from '../utils/pdfGenerator';
-import { getEnv } from '../utils/env';
+import { Button } from './components/ui/Button';
+import { CalculatorInputs, RiskMode } from './types';
+import { calculateROI, formatCurrency } from './utils/calculations';
+import { generateCouncilReport } from './utils/pdfGenerator';
+import { getEnv } from './utils/env';
 import { Download, Mail, MapPin, Building2, User, FileCheck, AlertTriangle, ShieldCheck } from 'lucide-react';
 import { DEFAULTS, MULTIPLIERS } from './constants';
 
