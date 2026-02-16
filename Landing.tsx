@@ -20,7 +20,7 @@ export const Landing: React.FC = () => {
       <section className="pt-20 pb-32 px-4 text-center max-w-5xl mx-auto">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-700 text-brand-400 text-xs font-bold uppercase tracking-widest mb-8">
           <ShieldAlert className="w-3 h-3" />
-          <span>New 2024 Fiscal Model</span>
+          <span>New 2025 Fiscal Model</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 text-balance">
