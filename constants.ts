@@ -42,7 +42,7 @@ export const MOCK_INPUTS: CalculatorInputs = {
   isMockData: true,
   profile: {
     departmentName: "Chandler Police Department (DEMO)",
-    city: "Chandler",
+    city: "Glendale",
     state: "AZ",
     county: "Maricopa",
     contactName: "Chief Demonstration",
@@ -64,7 +64,7 @@ export const PRESETS = [
     }
   },
   {
-    name: "Chandler PD Style",
+    name: "Glendale PD Style",
     description: "Suburb / ~350 Sworn",
     data: {
       agencyType: AgencyType.POLICE,
