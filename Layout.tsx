@@ -1,6 +1,7 @@
 import React, { PropsWithChildren } from 'react';
 import { Shield, ExternalLink } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import { BUSINESS } from './constants';
 
 export const Layout = ({ children }: PropsWithChildren) => {
   const location = useLocation();
@@ -44,6 +45,10 @@ export const Layout = ({ children }: PropsWithChildren) => {
             <p className="max-w-xs text-sm text-zinc-600">
               Helping public safety leadership quantify the cost of burnout, turnover, and liability.
             </p>
+            <address className="mt-4 text-sm text-zinc-600 not-italic">
+              {BUSINESS.street}<br />
+              {BUSINESS.city}, {BUSINESS.state} {BUSINESS.zip}
+            </address>
           </div>
           <div className="flex flex-col md:items-end gap-2 text-sm">
             <Link to="/assumptions" className="hover:text-brand-400 transition-colors">Assumptions & Sources</Link>

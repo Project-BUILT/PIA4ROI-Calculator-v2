@@ -1,5 +1,20 @@
 import { AgencyType, LocationProfile, CalculatorInputs } from "./types";
 
+/**
+ * Canonical business identity. Single source of truth — import this rather than
+ * hard-coding the address anywhere in the UI, PDFs, or outbound copy.
+ */
+export const BUSINESS = {
+  name: "PIA4ROI",
+  street: "2700 S Gilbert Rd Ste 5",
+  city: "Chandler",
+  state: "AZ",
+  zip: "85286",
+  get addressLine(): string {
+    return `${this.street}, ${this.city}, ${this.state} ${this.zip}`;
+  },
+};
+
 export const DEFAULTS = {
   REPLACEMENT_COST: 150000,
   AVG_FULLY_LOADED: 120000,
